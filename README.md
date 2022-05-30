@@ -1,6 +1,5 @@
 # e-Healthcare-management-system
 Table of content
-
 Description:
 
 This application helps in management of Patients and Admin in a easy and comfortable way.
