@@ -7,3 +7,9 @@ Using this Application patients can quickly Login, view his/her profile, view li
 They can book Appointment by choosing from list of doctors, date and time, view his/her Appointments ,change password and logout.
 Admin can also Login with name and password, view list of hospitals sorted alphabetically or by city, choose concrete hospital from the list of all hospitals and check  it's name, address and list of doctors. Admin can also add Doctors, add new medical institution or delete one that we already have, change his/her password and logout.
 Admin can also Login with name and password, view list of hospitals sorted alphabetically or by city, choose concrete hospital from the list of all hospitals and check out: it's name, address and list of doctors. Admin can also add Doctors, add new medical institution or delete one that we already have, change his/her password and logout.
+
+Languages and Technology Used  
+Java
+
+Requirements  
+Java [JDK 8+]
