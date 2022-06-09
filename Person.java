@@ -1,11 +1,10 @@
-import java.util.ArrayList;
-
-public abstract class Person {
+public class Person {
 
     private String firstName;
     private String lastName;
     private String gender;
     private int age;
+    private String city;
     private String address;
     private String email;
     private String userName;
@@ -13,11 +12,12 @@ public abstract class Person {
 
 
     public Person(String firstName, String lastName, String gender, String age,
-                  String address, String email, String userName, String password) {
+                  String city, String address, String email, String userName, String password) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
         this.age = Integer.parseInt(age);
+        this.city = city;
         this.address = address;
         this.email = email;
         this.userName = userName;
@@ -53,6 +53,14 @@ public abstract class Person {
         return password;
     }
 
+    public String getCity() {
+        return city;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
     protected char[] convertPassword(String password) {
         char[] safePassword = new char[password.length()];
         for (int i = 0; i < password.length(); i++) {
@@ -61,13 +69,13 @@ public abstract class Person {
         return safePassword;
     }
 
-    @Override
+    /*@Override
     public String toString() {
-        return "firstName='" + firstName + '\n' +
+        return "\nfirstName='" + firstName + '\n' +
                 "lastName='" + lastName + '\n' +
                 "gender='" + gender + '\n' +
                 "age=" + age + '\n' +
                 "address='" + address + '\n' +
                 "email='" + email + '\n';
-    }
+    }*/
 }
