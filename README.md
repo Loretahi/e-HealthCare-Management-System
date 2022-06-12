@@ -4,7 +4,7 @@ Table of content
 
 Description:
 
-This application helps in management of Patients and Admin in a easy and comfortable way. 
+This application helps in management of Patients and Admin in an easy and comfortable way. 
 Using this Application patient can quickly Login, view his/her profile, view list of hospitals 
 sorted alphabetically or by city. They can book Appointment by choosing from list of doctors,
  date and time, view his/her Appointments ,change password and logout.
