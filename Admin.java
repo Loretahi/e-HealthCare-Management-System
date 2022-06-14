@@ -249,6 +249,7 @@ public class Admin extends Person {
         return false;
     }
 
+
     private static void editHospitalCredentials(Hospital hospital) {
         System.out.println("\t------------------------------");
         System.out.print("\t\tEnter new name: ");
